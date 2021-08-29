@@ -1,0 +1,176 @@
+/*CSS reset*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 475px;
+}
+
+header {
+    padding: 20px;
+}
+.rightside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightside .menu-logo {
+    width: 100px;
+}
+
+.rightside a {
+    display: flex;
+    gap: .5rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.rightside a:hover {
+    text-decoration: underline;
+}
+/*main*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: hsl(218, 28%, 13%);
+}
+main img {
+    width: 475px;
+}
+
+main h1.illustration-main {
+ color:hsl(0, 0%, 100%);
+ font-family: 'Raleway', sans-serif;
+ line-height: 1.4em;
+ text-align: center;
+}
+
+main p.content-main {
+    color:hsl(0, 0%, 100%);
+    line-height: 1.4em;
+    text-align: center;
+}
+main button.get-started {
+    margin: 45px;
+    width: 268px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 0;
+    background-color: hsl(198, 60%, 50%);
+    cursor: pointer;
+}
+
+main button.get-started a {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+main button.get-started:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+/*section*/
+.section-info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+div.section-info h2 {
+    color:hsl(0, 0%, 100%);
+    line-height: 2.4em;
+
+
+}
+div.section-info p {
+    color:hsl(0, 0%, 100%);
+    line-height: 1.4em;
+    text-align: center;
+}
+
+/*stay productive*/
+.stay-productive div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+div.stay-productive img {
+    width: 375px;
+}
+h2.stay-productive {
+    color:hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-style: normal;
+}
+div.stay-productive p {
+    color: hsl(0, 0%, 100%);
+    padding: 10px 0px 10px 0px;
+}
+a.fylo-works {
+    color:hsl(176, 68%, 64%);
+    border-bottom: hsl(176, 68%, 64%) solid 2px;
+    padding: 5px;
+    width: 190px;
+}
+a.fylo-works img.arrow {
+    width: 20px;
+}
+a.fylo-works:hover {
+    color:hsl(0, 0%, 100%);
+    text-decoration: hsl(0, 0%, 100%);
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+}
+
+/*testimonials*/
+section.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+div.testimonials img {
+    width: 30px;
+    position: relative;
+    top: -30px;
+    left: 0px;
+    border-radius: 100%;
+}
+div.testimonials {
+    width: 365px;
+    height: 250px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 8px;
+    padding: 25px;
+}
+
+section div.testimonials {
+    margin: 20px;
+}
+div.testimonials p {
+    color:hsl(0, 0%, 100%);
+    line-height: 1.8em;
+    font-style: normal;
+}
+div.testimonials h3 {
+    color: hsl(0, 0%, 100%);
+    line-height: 1.4em;
+}
+
