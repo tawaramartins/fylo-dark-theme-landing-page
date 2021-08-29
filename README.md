@@ -1,7 +1,7 @@
 # Frontend Mentor - fylo dark theme lnding-page
 
 <h4 align="center"> 
-	🚧  🚀 Em construção...  🚧
+	🚧   Em construção...  🚧
 </h4>
 
 Esta é uma solução para o desafio [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades ao construir projetos realistas.
