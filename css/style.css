@@ -11,10 +11,10 @@
 }
 
 body {
-    background-color: hsl(218, 28%, 13%);
     font-family: 'Open Sans', sans-serif;
+    background: hsl(218, 28%, 13%);
     font-size: 14px;
-    width: 475px;
+    width: 480px;
 }
 
 header {
@@ -49,7 +49,7 @@ main{
     background: hsl(218, 28%, 13%);
 }
 main img {
-    width: 475px;
+    width: 375px;
 }
 
 main h1.illustration-main {
@@ -146,16 +146,26 @@ section.testimonials {
     flex-direction: column;
     padding: 40px;
 }
+
+section.testimonials .bg-quotes {
+    position: relative;
+    top: 30px;
+    right: 150px;
+    z-index: -1;
+}
+div.testimonials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 div.testimonials img {
     width: 30px;
-    position: relative;
-    top: -30px;
-    left: 0px;
     border-radius: 100%;
+    align-self: flex-start;
 }
 div.testimonials {
     width: 365px;
-    height: 250px;
+    height: 230px;
     background-color: hsl(219, 30%, 18%);
     border-radius: 8px;
     padding: 25px;
@@ -165,7 +175,7 @@ section div.testimonials {
     margin: 20px;
 }
 div.testimonials p {
-    color:hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
     line-height: 1.8em;
     font-style: normal;
 }
@@ -173,4 +183,123 @@ div.testimonials h3 {
     color: hsl(0, 0%, 100%);
     line-height: 1.4em;
 }
+
+/*get-early*/
+
+.get-early {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.get-early {
+    position: relative;
+    top: 127px;
+    left: 0px;
+    z-index: 1;
+}
+.eraly-access {
+    width: 365px;
+    height: 330px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 8px;
+    padding: 25px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eraly-access h3 {
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.eraly-access p {
+    color:hsl(0, 0%, 100%);
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.eraly-access input {
+    padding: 20px;
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+}
+.eraly-access ::placeholder {
+    font-style: italic;
+    padding-left: 5px;
+}
+.eraly-access button {
+    padding: 20px;
+    color:hsl(0, 0%, 100%);
+    border: 0;
+    border-radius: 30px;
+    background:hsl(198, 60%, 50%);
+    font-weight: bold;
+    cursor: pointer;
+}
+.eraly-access button:hover {
+    background:hsl(176, 68%, 64%);
+}
+
+/*footer*/
+.information-contact {
+    background: hsl(216, 53%, 9%);
+    width: 100%;
+    margin: 0;
+    padding: 60px;
+}
+.address-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+.address-information img.logo {
+    width: 200px;
+    gap:.8rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+
+}
+
+.more-information {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    margin: 25px 0px 20px 0px;  
+
+}
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;  
+    margin: 25px 0px 20px 0px;  
+}
+
+.address-information a:hover{
+    color:hsl(176, 68%, 64%);
+}
+.address-information p, a {
+    color:hsl(0, 0%, 100%);
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+.attribution { 
+    font-size: 14px;
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
 
