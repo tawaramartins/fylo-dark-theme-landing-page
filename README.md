@@ -31,7 +31,7 @@ Os usuários devem ser capazes de:
 
 ### 🔗 Links
 
-- URL da solução mobile: [Versão mobile](https://tawaramartins.github.io/fylo-dark-theme-landing-page/)
+- URL da solução mobile: [Fylo dark theme landing page](https://tawaramartins.github.io/fylo-dark-theme-landing-page/)
 
 ## Meu processo
 
