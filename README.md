@@ -1,7 +1,7 @@
 # Frontend Mentor - fylo dark theme lnding-page
 
 <h4 align="center"> 
-	🚧   Em construção...  🚧
+	🚧  Projeto foi construido com o conceito do mobile first. Versão desktop está em construção... 🚧
 </h4>
 
 Esta é uma solução para o desafio [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades ao construir projetos realistas.
@@ -29,6 +29,9 @@ Os usuários devem ser capazes de:
 - Veja o layout ideal, dependendo do tamanho da tela do dispositivo
 - Ver estados de foco para elementos interativos
 
+### 🔗 Links
+
+- URL da solução mobile: [Versão mobile](https://tawaramartins.github.io/fylo-dark-theme-landing-page/)
 
 ## Meu processo
 
